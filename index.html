@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Liam & Liam</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="intro" class="fade-in visible">
+    <div class="logo">NETFLIX</div>
+    <div class="text-sequence">
+      <p>For the love of my life...</p>
+      <p>A story by Liam G.</p>
+      <p>Coming from the heart ❤️</p>
+    </div>
+    <button id="enter-btn">Enter</button>
+    <audio id="bg-music" src="assets/cupid.mp3" autoplay loop></audio>
+  </div>
+
+  <div id="main-content" class="fade-in">
+    <div class="profile-card" id="profile-card" onclick="playVideo()">
+      <img src="assets/photo.jpg" alt="Liam & Liam" />
+      <h2>Liam & Liam</h2>
+      <p>For The Love Of My Life</p>
+    </div>
+  </div>
+
+  <div id="video-section" class="fade-in">
+    <video id="love-video" src="assets/video.mp4" controls></video>
+  </div>
+
+  <script src="main.js"></script>
+</body>
+</html>
